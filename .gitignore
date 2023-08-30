@@ -3,4 +3,4 @@ tmp
 policy/out
 answer.rego
 answer_test.rego
-config/secrets.yaml
+secrets.yml
