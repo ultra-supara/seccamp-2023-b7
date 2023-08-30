@@ -1,2 +1,6 @@
 package ex1
-# @TODO: write your policy
+
+allow {
+    input.method == "GET"
+    input.path == "/api/v1/health"
+}

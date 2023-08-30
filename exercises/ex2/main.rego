@@ -1,6 +1,9 @@
 package ex2
 
 can_attend {
-    # @TODO: remove "false" and write your policy
-    false
+    input.age >= 18
+    input.region == ["Tokyo", "Osaka"]
+} else {
+    input.age >= 18
+    input.region == ["Tokyo", "Osaka"]
 }
